@@ -1,0 +1,170 @@
+/* Basic page design */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin: 0;
+    background-color: #f3f1ff;
+    color: #30304a;
+    line-height: 1.8;
+}
+
+/* Header */
+header {
+    background-color: #483d8b;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 52px;
+    margin: 0;
+}
+
+header p {
+    font-size: 22px;
+}
+
+/* Navigation menu */
+nav {
+    margin-top: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 25px;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #483d8b;
+}
+
+/* Main sections */
+section {
+    background-color: white;
+    margin: 35px auto;
+    padding: 35px;
+    max-width: 1000px;
+    border-radius: 18px;
+    box-shadow: 0 5px 15px #dcd6f5;
+}
+
+/* Welcome section */
+#home {
+    background-color: #e7e1ff;
+    text-align: center;
+    padding: 45px 35px;
+}
+
+#home h2 {
+    font-size: 36px;
+}
+
+#home p {
+    font-size: 20px;
+}
+
+/* Headings */
+h2 {
+    color: #483d8b;
+    font-size: 32px;
+    margin-top: 0;
+}
+
+h3 {
+    color: #483d8b;
+    font-size: 24px;
+}
+
+/* Feature cards */
+.feature {
+    background-color: #f5f2ff;
+    padding: 22px;
+    margin: 20px 0;
+    border-left: 6px solid #8067d8;
+    border-radius: 12px;
+}
+
+.feature p {
+    font-size: 18px;
+}
+
+.feature:hover {
+    background-color: #ebe5ff;
+}
+
+/* Lists */
+li {
+    font-size: 19px;
+    padding: 5px 0;
+}
+
+/* Technology section */
+#technology p {
+    background-color: #f0edff;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+/* Button */
+button {
+    background-color: #483d8b;
+    color: white;
+    font-size: 19px;
+    padding: 15px 28px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #30265f;
+}
+
+/* Footer */
+footer {
+    background-color: #30265f;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    padding: 25px;
+}
+
+/* Mobile-friendly design */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 40px;
+    }
+
+    header p {
+        font-size: 19px;
+    }
+
+    nav a {
+        font-size: 16px;
+        padding: 8px 10px;
+    }
+
+    section {
+        margin: 18px 12px;
+        padding: 22px;
+    }
+
+    h2 {
+        font-size: 27px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    #home p {
+        font-size: 18px;
+    }
+}
